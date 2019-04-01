@@ -1,0 +1,470 @@
+03/27/2019 10:27:11 AM: INFO: ************** Test_001_Login ************ 
+03/27/2019 10:27:11 AM: INFO: ************** Started home page title test ************ 
+03/27/2019 10:27:14 AM: INFO: ************** Home PageTitle test is passed ************ 
+03/27/2019 10:27:16 AM: INFO: ************** Login Test is started ************ 
+03/27/2019 10:27:25 AM: INFO: ************** Login test test is passed ************ 
+03/27/2019 10:28:30 AM: DEBUG: POST http://127.0.0.1:64668/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"browserName": "chrome", "platformName": "any", "goog:chromeOptions": {"extensions": [], "args": []}}}, "desiredCapabilities": {"browserName": "chrome", "version": "", "platform": "ANY", "goog:chromeOptions": {"extensions": [], "args": []}}}
+03/27/2019 10:28:30 AM: DEBUG: Starting new HTTP connection (1): 127.0.0.1:64668
+03/27/2019 10:28:32 AM: DEBUG: http://127.0.0.1:64668 "POST /session HTTP/1.1" 200 998
+03/27/2019 10:28:32 AM: DEBUG: Finished Request
+03/27/2019 10:28:32 AM: INFO: ************** Test_001_Login ************ 
+03/27/2019 10:28:32 AM: INFO: ************** Started home page title test ************ 
+03/27/2019 10:28:32 AM: DEBUG: POST http://127.0.0.1:64668/session/80ba1da926ffd7191b3a2462bdade54d/url {"url": "http://admin-demo.nopcommerce.com", "sessionId": "80ba1da926ffd7191b3a2462bdade54d"}
+03/27/2019 10:28:35 AM: DEBUG: http://127.0.0.1:64668 "POST /session/80ba1da926ffd7191b3a2462bdade54d/url HTTP/1.1" 200 72
+03/27/2019 10:28:35 AM: DEBUG: Finished Request
+03/27/2019 10:28:35 AM: DEBUG: GET http://127.0.0.1:64668/session/80ba1da926ffd7191b3a2462bdade54d/title {"sessionId": "80ba1da926ffd7191b3a2462bdade54d"}
+03/27/2019 10:28:35 AM: DEBUG: http://127.0.0.1:64668 "GET /session/80ba1da926ffd7191b3a2462bdade54d/title HTTP/1.1" 200 87
+03/27/2019 10:28:35 AM: DEBUG: Finished Request
+03/27/2019 10:28:35 AM: INFO: ************** Home PageTitle test is passed ************ 
+03/27/2019 10:28:35 AM: DEBUG: DELETE http://127.0.0.1:64668/session/80ba1da926ffd7191b3a2462bdade54d/window {"sessionId": "80ba1da926ffd7191b3a2462bdade54d"}
+03/27/2019 10:28:35 AM: DEBUG: http://127.0.0.1:64668 "DELETE /session/80ba1da926ffd7191b3a2462bdade54d/window HTTP/1.1" 200 70
+03/27/2019 10:28:35 AM: DEBUG: Finished Request
+03/27/2019 10:28:36 AM: DEBUG: POST http://127.0.0.1:64703/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"browserName": "chrome", "platformName": "any", "goog:chromeOptions": {"extensions": [], "args": []}}}, "desiredCapabilities": {"browserName": "chrome", "version": "", "platform": "ANY", "goog:chromeOptions": {"extensions": [], "args": []}}}
+03/27/2019 10:28:36 AM: DEBUG: Starting new HTTP connection (1): 127.0.0.1:64703
+03/27/2019 10:28:38 AM: DEBUG: http://127.0.0.1:64703 "POST /session HTTP/1.1" 200 999
+03/27/2019 10:28:38 AM: DEBUG: Finished Request
+03/27/2019 10:28:38 AM: INFO: ************** Login Test is started ************ 
+03/27/2019 10:28:38 AM: DEBUG: POST http://127.0.0.1:64703/session/6ad17f0ba5cfefe466390f27347c5a58/url {"url": "http://admin-demo.nopcommerce.com", "sessionId": "6ad17f0ba5cfefe466390f27347c5a58"}
+03/27/2019 10:28:40 AM: DEBUG: http://127.0.0.1:64703 "POST /session/6ad17f0ba5cfefe466390f27347c5a58/url HTTP/1.1" 200 72
+03/27/2019 10:28:40 AM: DEBUG: Finished Request
+03/27/2019 10:28:40 AM: DEBUG: POST http://127.0.0.1:64703/session/6ad17f0ba5cfefe466390f27347c5a58/element {"using": "id", "value": "Email", "sessionId": "6ad17f0ba5cfefe466390f27347c5a58"}
+03/27/2019 10:28:40 AM: DEBUG: http://127.0.0.1:64703 "POST /session/6ad17f0ba5cfefe466390f27347c5a58/element HTTP/1.1" 200 100
+03/27/2019 10:28:40 AM: DEBUG: Finished Request
+03/27/2019 10:28:40 AM: DEBUG: POST http://127.0.0.1:64703/session/6ad17f0ba5cfefe466390f27347c5a58/element/0.53624624145716-1/value {"text": "admin@yourstore.com", "value": ["a", "d", "m", "i", "n", "@", "y", "o", "u", "r", "s", "t", "o", "r", "e", ".", "c", "o", "m"], "id": "0.53624624145716-1", "sessionId": "6ad17f0ba5cfefe466390f27347c5a58"}
+03/27/2019 10:28:40 AM: DEBUG: http://127.0.0.1:64703 "POST /session/6ad17f0ba5cfefe466390f27347c5a58/element/0.53624624145716-1/value HTTP/1.1" 200 72
+03/27/2019 10:28:40 AM: DEBUG: Finished Request
+03/27/2019 10:28:40 AM: DEBUG: POST http://127.0.0.1:64703/session/6ad17f0ba5cfefe466390f27347c5a58/element {"using": "id", "value": "Password", "sessionId": "6ad17f0ba5cfefe466390f27347c5a58"}
+03/27/2019 10:28:40 AM: DEBUG: http://127.0.0.1:64703 "POST /session/6ad17f0ba5cfefe466390f27347c5a58/element HTTP/1.1" 200 100
+03/27/2019 10:28:40 AM: DEBUG: Finished Request
+03/27/2019 10:28:40 AM: DEBUG: POST http://127.0.0.1:64703/session/6ad17f0ba5cfefe466390f27347c5a58/element/0.53624624145716-2/value {"text": "admin", "value": ["a", "d", "m", "i", "n"], "id": "0.53624624145716-2", "sessionId": "6ad17f0ba5cfefe466390f27347c5a58"}
+03/27/2019 10:28:40 AM: DEBUG: http://127.0.0.1:64703 "POST /session/6ad17f0ba5cfefe466390f27347c5a58/element/0.53624624145716-2/value HTTP/1.1" 200 72
+03/27/2019 10:28:40 AM: DEBUG: Finished Request
+03/27/2019 10:28:40 AM: DEBUG: POST http://127.0.0.1:64703/session/6ad17f0ba5cfefe466390f27347c5a58/element {"using": "xpath", "value": "//input[@value='Log in']", "sessionId": "6ad17f0ba5cfefe466390f27347c5a58"}
+03/27/2019 10:28:40 AM: DEBUG: http://127.0.0.1:64703 "POST /session/6ad17f0ba5cfefe466390f27347c5a58/element HTTP/1.1" 200 100
+03/27/2019 10:28:40 AM: DEBUG: Finished Request
+03/27/2019 10:28:40 AM: DEBUG: POST http://127.0.0.1:64703/session/6ad17f0ba5cfefe466390f27347c5a58/element/0.53624624145716-3/click {"id": "0.53624624145716-3", "sessionId": "6ad17f0ba5cfefe466390f27347c5a58"}
+03/27/2019 10:28:44 AM: DEBUG: http://127.0.0.1:64703 "POST /session/6ad17f0ba5cfefe466390f27347c5a58/element/0.53624624145716-3/click HTTP/1.1" 200 72
+03/27/2019 10:28:44 AM: DEBUG: Finished Request
+03/27/2019 10:28:44 AM: DEBUG: GET http://127.0.0.1:64703/session/6ad17f0ba5cfefe466390f27347c5a58/title {"sessionId": "6ad17f0ba5cfefe466390f27347c5a58"}
+03/27/2019 10:28:44 AM: DEBUG: http://127.0.0.1:64703 "GET /session/6ad17f0ba5cfefe466390f27347c5a58/title HTTP/1.1" 200 108
+03/27/2019 10:28:44 AM: DEBUG: Finished Request
+03/27/2019 10:28:44 AM: INFO: ************** Login test test is passed ************ 
+03/27/2019 10:28:44 AM: DEBUG: DELETE http://127.0.0.1:64703/session/6ad17f0ba5cfefe466390f27347c5a58/window {"sessionId": "6ad17f0ba5cfefe466390f27347c5a58"}
+03/27/2019 10:28:44 AM: DEBUG: http://127.0.0.1:64703 "DELETE /session/6ad17f0ba5cfefe466390f27347c5a58/window HTTP/1.1" 200 70
+03/27/2019 10:28:44 AM: DEBUG: Finished Request
+03/27/2019 10:34:07 AM: DEBUG: POST http://127.0.0.1:49268/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"browserName": "chrome", "platformName": "any", "goog:chromeOptions": {"extensions": [], "args": []}}}, "desiredCapabilities": {"browserName": "chrome", "version": "", "platform": "ANY", "goog:chromeOptions": {"extensions": [], "args": []}}}
+03/27/2019 10:34:07 AM: DEBUG: Starting new HTTP connection (1): 127.0.0.1:49268
+03/27/2019 10:34:09 AM: DEBUG: http://127.0.0.1:49268 "POST /session HTTP/1.1" 200 999
+03/27/2019 10:34:09 AM: DEBUG: Finished Request
+03/27/2019 10:34:09 AM: INFO: ************** Test_001_Login ************ 
+03/27/2019 10:34:09 AM: INFO: ************** Started home page title test ************ 
+03/27/2019 10:34:09 AM: DEBUG: POST http://127.0.0.1:49268/session/871957c7c69e4c5fbb4b3e0d08f3b502/url {"url": "http://admin-demo.nopcommerce.com", "sessionId": "871957c7c69e4c5fbb4b3e0d08f3b502"}
+03/27/2019 10:34:12 AM: DEBUG: http://127.0.0.1:49268 "POST /session/871957c7c69e4c5fbb4b3e0d08f3b502/url HTTP/1.1" 200 72
+03/27/2019 10:34:12 AM: DEBUG: Finished Request
+03/27/2019 10:34:12 AM: DEBUG: GET http://127.0.0.1:49268/session/871957c7c69e4c5fbb4b3e0d08f3b502/title {"sessionId": "871957c7c69e4c5fbb4b3e0d08f3b502"}
+03/27/2019 10:34:12 AM: DEBUG: http://127.0.0.1:49268 "GET /session/871957c7c69e4c5fbb4b3e0d08f3b502/title HTTP/1.1" 200 87
+03/27/2019 10:34:12 AM: DEBUG: Finished Request
+03/27/2019 10:34:12 AM: INFO: ************** Home PageTitle test is passed ************ 
+03/27/2019 10:34:12 AM: DEBUG: DELETE http://127.0.0.1:49268/session/871957c7c69e4c5fbb4b3e0d08f3b502/window {"sessionId": "871957c7c69e4c5fbb4b3e0d08f3b502"}
+03/27/2019 10:34:12 AM: DEBUG: http://127.0.0.1:49268 "DELETE /session/871957c7c69e4c5fbb4b3e0d08f3b502/window HTTP/1.1" 200 70
+03/27/2019 10:34:12 AM: DEBUG: Finished Request
+03/27/2019 10:34:12 AM: DEBUG: POST http://127.0.0.1:49306/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"browserName": "chrome", "platformName": "any", "goog:chromeOptions": {"extensions": [], "args": []}}}, "desiredCapabilities": {"browserName": "chrome", "version": "", "platform": "ANY", "goog:chromeOptions": {"extensions": [], "args": []}}}
+03/27/2019 10:34:12 AM: DEBUG: Starting new HTTP connection (1): 127.0.0.1:49306
+03/27/2019 10:34:16 AM: DEBUG: http://127.0.0.1:49306 "POST /session HTTP/1.1" 200 998
+03/27/2019 10:34:16 AM: DEBUG: Finished Request
+03/27/2019 10:34:16 AM: INFO: ************** Login Test is started ************ 
+03/27/2019 10:34:16 AM: DEBUG: POST http://127.0.0.1:49306/session/0b015bdfbbda91b0280d3da8b2d5556a/url {"url": "http://admin-demo.nopcommerce.com", "sessionId": "0b015bdfbbda91b0280d3da8b2d5556a"}
+03/27/2019 10:34:19 AM: DEBUG: http://127.0.0.1:49306 "POST /session/0b015bdfbbda91b0280d3da8b2d5556a/url HTTP/1.1" 200 72
+03/27/2019 10:34:19 AM: DEBUG: Finished Request
+03/27/2019 10:34:19 AM: DEBUG: POST http://127.0.0.1:49306/session/0b015bdfbbda91b0280d3da8b2d5556a/element {"using": "id", "value": "Email", "sessionId": "0b015bdfbbda91b0280d3da8b2d5556a"}
+03/27/2019 10:34:19 AM: DEBUG: http://127.0.0.1:49306 "POST /session/0b015bdfbbda91b0280d3da8b2d5556a/element HTTP/1.1" 200 103
+03/27/2019 10:34:19 AM: DEBUG: Finished Request
+03/27/2019 10:34:19 AM: DEBUG: POST http://127.0.0.1:49306/session/0b015bdfbbda91b0280d3da8b2d5556a/element/0.08650204277152085-1/value {"text": "admin@yourstore.com", "value": ["a", "d", "m", "i", "n", "@", "y", "o", "u", "r", "s", "t", "o", "r", "e", ".", "c", "o", "m"], "id": "0.08650204277152085-1", "sessionId": "0b015bdfbbda91b0280d3da8b2d5556a"}
+03/27/2019 10:34:19 AM: DEBUG: http://127.0.0.1:49306 "POST /session/0b015bdfbbda91b0280d3da8b2d5556a/element/0.08650204277152085-1/value HTTP/1.1" 200 72
+03/27/2019 10:34:19 AM: DEBUG: Finished Request
+03/27/2019 10:34:19 AM: DEBUG: POST http://127.0.0.1:49306/session/0b015bdfbbda91b0280d3da8b2d5556a/element {"using": "id", "value": "Password", "sessionId": "0b015bdfbbda91b0280d3da8b2d5556a"}
+03/27/2019 10:34:19 AM: DEBUG: http://127.0.0.1:49306 "POST /session/0b015bdfbbda91b0280d3da8b2d5556a/element HTTP/1.1" 200 103
+03/27/2019 10:34:19 AM: DEBUG: Finished Request
+03/27/2019 10:34:19 AM: DEBUG: POST http://127.0.0.1:49306/session/0b015bdfbbda91b0280d3da8b2d5556a/element/0.08650204277152085-2/value {"text": "admin", "value": ["a", "d", "m", "i", "n"], "id": "0.08650204277152085-2", "sessionId": "0b015bdfbbda91b0280d3da8b2d5556a"}
+03/27/2019 10:34:19 AM: DEBUG: http://127.0.0.1:49306 "POST /session/0b015bdfbbda91b0280d3da8b2d5556a/element/0.08650204277152085-2/value HTTP/1.1" 200 72
+03/27/2019 10:34:19 AM: DEBUG: Finished Request
+03/27/2019 10:34:19 AM: DEBUG: POST http://127.0.0.1:49306/session/0b015bdfbbda91b0280d3da8b2d5556a/element {"using": "xpath", "value": "//input[@value='Log in']", "sessionId": "0b015bdfbbda91b0280d3da8b2d5556a"}
+03/27/2019 10:34:19 AM: DEBUG: http://127.0.0.1:49306 "POST /session/0b015bdfbbda91b0280d3da8b2d5556a/element HTTP/1.1" 200 103
+03/27/2019 10:34:19 AM: DEBUG: Finished Request
+03/27/2019 10:34:19 AM: DEBUG: POST http://127.0.0.1:49306/session/0b015bdfbbda91b0280d3da8b2d5556a/element/0.08650204277152085-3/click {"id": "0.08650204277152085-3", "sessionId": "0b015bdfbbda91b0280d3da8b2d5556a"}
+03/27/2019 10:34:27 AM: DEBUG: http://127.0.0.1:49306 "POST /session/0b015bdfbbda91b0280d3da8b2d5556a/element/0.08650204277152085-3/click HTTP/1.1" 200 72
+03/27/2019 10:34:27 AM: DEBUG: Finished Request
+03/27/2019 10:34:27 AM: DEBUG: GET http://127.0.0.1:49306/session/0b015bdfbbda91b0280d3da8b2d5556a/title {"sessionId": "0b015bdfbbda91b0280d3da8b2d5556a"}
+03/27/2019 10:34:27 AM: DEBUG: http://127.0.0.1:49306 "GET /session/0b015bdfbbda91b0280d3da8b2d5556a/title HTTP/1.1" 200 108
+03/27/2019 10:34:27 AM: DEBUG: Finished Request
+03/27/2019 10:34:27 AM: INFO: ************** Login test test is passed ************ 
+03/27/2019 10:34:27 AM: DEBUG: DELETE http://127.0.0.1:49306/session/0b015bdfbbda91b0280d3da8b2d5556a/window {"sessionId": "0b015bdfbbda91b0280d3da8b2d5556a"}
+03/27/2019 10:34:29 AM: DEBUG: http://127.0.0.1:49306 "DELETE /session/0b015bdfbbda91b0280d3da8b2d5556a/window HTTP/1.1" 200 72
+03/27/2019 10:34:29 AM: DEBUG: Finished Request
+03/27/2019 10:38:50 AM: DEBUG: POST http://127.0.0.1:50100/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"browserName": "chrome", "platformName": "any", "goog:chromeOptions": {"extensions": [], "args": []}}}, "desiredCapabilities": {"browserName": "chrome", "version": "", "platform": "ANY", "goog:chromeOptions": {"extensions": [], "args": []}}}
+03/27/2019 10:38:50 AM: DEBUG: Starting new HTTP connection (1): 127.0.0.1:50100
+03/27/2019 10:38:53 AM: DEBUG: http://127.0.0.1:50100 "POST /session HTTP/1.1" 200 998
+03/27/2019 10:38:53 AM: DEBUG: Finished Request
+03/27/2019 10:38:53 AM: INFO: ************** Test_001_Login ************ 
+03/27/2019 10:38:53 AM: INFO: ************** Started home page title test ************ 
+03/27/2019 10:38:53 AM: DEBUG: POST http://127.0.0.1:50100/session/fe1ce657eb0cc5df09af7bcac31c3d2f/url {"url": "http://admin-demo.nopcommerce.com", "sessionId": "fe1ce657eb0cc5df09af7bcac31c3d2f"}
+03/27/2019 10:38:56 AM: DEBUG: http://127.0.0.1:50100 "POST /session/fe1ce657eb0cc5df09af7bcac31c3d2f/url HTTP/1.1" 200 72
+03/27/2019 10:38:56 AM: DEBUG: Finished Request
+03/27/2019 10:38:56 AM: DEBUG: GET http://127.0.0.1:50100/session/fe1ce657eb0cc5df09af7bcac31c3d2f/title {"sessionId": "fe1ce657eb0cc5df09af7bcac31c3d2f"}
+03/27/2019 10:38:56 AM: DEBUG: http://127.0.0.1:50100 "GET /session/fe1ce657eb0cc5df09af7bcac31c3d2f/title HTTP/1.1" 200 87
+03/27/2019 10:38:56 AM: DEBUG: Finished Request
+03/27/2019 10:38:56 AM: INFO: ************** Home PageTitle test is passed ************ 
+03/27/2019 10:38:56 AM: DEBUG: DELETE http://127.0.0.1:50100/session/fe1ce657eb0cc5df09af7bcac31c3d2f/window {"sessionId": "fe1ce657eb0cc5df09af7bcac31c3d2f"}
+03/27/2019 10:38:56 AM: DEBUG: http://127.0.0.1:50100 "DELETE /session/fe1ce657eb0cc5df09af7bcac31c3d2f/window HTTP/1.1" 200 70
+03/27/2019 10:38:56 AM: DEBUG: Finished Request
+03/27/2019 10:38:57 AM: DEBUG: POST http://127.0.0.1:50141/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"browserName": "chrome", "platformName": "any", "goog:chromeOptions": {"extensions": [], "args": []}}}, "desiredCapabilities": {"browserName": "chrome", "version": "", "platform": "ANY", "goog:chromeOptions": {"extensions": [], "args": []}}}
+03/27/2019 10:38:57 AM: DEBUG: Starting new HTTP connection (1): 127.0.0.1:50141
+03/27/2019 10:39:00 AM: DEBUG: http://127.0.0.1:50141 "POST /session HTTP/1.1" 200 997
+03/27/2019 10:39:00 AM: DEBUG: Finished Request
+03/27/2019 10:39:00 AM: INFO: ************** Login Test is started ************ 
+03/27/2019 10:39:00 AM: DEBUG: POST http://127.0.0.1:50141/session/bc66ed319a1e6e7a3f30758a081c2605/url {"url": "http://admin-demo.nopcommerce.com", "sessionId": "bc66ed319a1e6e7a3f30758a081c2605"}
+03/27/2019 10:39:03 AM: DEBUG: http://127.0.0.1:50141 "POST /session/bc66ed319a1e6e7a3f30758a081c2605/url HTTP/1.1" 200 72
+03/27/2019 10:39:03 AM: DEBUG: Finished Request
+03/27/2019 10:39:03 AM: DEBUG: POST http://127.0.0.1:50141/session/bc66ed319a1e6e7a3f30758a081c2605/element {"using": "id", "value": "Email", "sessionId": "bc66ed319a1e6e7a3f30758a081c2605"}
+03/27/2019 10:39:03 AM: DEBUG: http://127.0.0.1:50141 "POST /session/bc66ed319a1e6e7a3f30758a081c2605/element HTTP/1.1" 200 102
+03/27/2019 10:39:03 AM: DEBUG: Finished Request
+03/27/2019 10:39:03 AM: DEBUG: POST http://127.0.0.1:50141/session/bc66ed319a1e6e7a3f30758a081c2605/element/0.9396778793223652-1/value {"text": "admin@yourstore.com", "value": ["a", "d", "m", "i", "n", "@", "y", "o", "u", "r", "s", "t", "o", "r", "e", ".", "c", "o", "m"], "id": "0.9396778793223652-1", "sessionId": "bc66ed319a1e6e7a3f30758a081c2605"}
+03/27/2019 10:39:03 AM: DEBUG: http://127.0.0.1:50141 "POST /session/bc66ed319a1e6e7a3f30758a081c2605/element/0.9396778793223652-1/value HTTP/1.1" 200 72
+03/27/2019 10:39:03 AM: DEBUG: Finished Request
+03/27/2019 10:39:03 AM: DEBUG: POST http://127.0.0.1:50141/session/bc66ed319a1e6e7a3f30758a081c2605/element {"using": "id", "value": "Password", "sessionId": "bc66ed319a1e6e7a3f30758a081c2605"}
+03/27/2019 10:39:03 AM: DEBUG: http://127.0.0.1:50141 "POST /session/bc66ed319a1e6e7a3f30758a081c2605/element HTTP/1.1" 200 102
+03/27/2019 10:39:03 AM: DEBUG: Finished Request
+03/27/2019 10:39:03 AM: DEBUG: POST http://127.0.0.1:50141/session/bc66ed319a1e6e7a3f30758a081c2605/element/0.9396778793223652-2/value {"text": "admin", "value": ["a", "d", "m", "i", "n"], "id": "0.9396778793223652-2", "sessionId": "bc66ed319a1e6e7a3f30758a081c2605"}
+03/27/2019 10:39:03 AM: DEBUG: http://127.0.0.1:50141 "POST /session/bc66ed319a1e6e7a3f30758a081c2605/element/0.9396778793223652-2/value HTTP/1.1" 200 72
+03/27/2019 10:39:03 AM: DEBUG: Finished Request
+03/27/2019 10:39:03 AM: DEBUG: POST http://127.0.0.1:50141/session/bc66ed319a1e6e7a3f30758a081c2605/element {"using": "xpath", "value": "//input[@value='Log in']", "sessionId": "bc66ed319a1e6e7a3f30758a081c2605"}
+03/27/2019 10:39:03 AM: DEBUG: http://127.0.0.1:50141 "POST /session/bc66ed319a1e6e7a3f30758a081c2605/element HTTP/1.1" 200 102
+03/27/2019 10:39:03 AM: DEBUG: Finished Request
+03/27/2019 10:39:03 AM: DEBUG: POST http://127.0.0.1:50141/session/bc66ed319a1e6e7a3f30758a081c2605/element/0.9396778793223652-3/click {"id": "0.9396778793223652-3", "sessionId": "bc66ed319a1e6e7a3f30758a081c2605"}
+03/27/2019 10:39:07 AM: DEBUG: http://127.0.0.1:50141 "POST /session/bc66ed319a1e6e7a3f30758a081c2605/element/0.9396778793223652-3/click HTTP/1.1" 200 72
+03/27/2019 10:39:07 AM: DEBUG: Finished Request
+03/27/2019 10:39:07 AM: DEBUG: GET http://127.0.0.1:50141/session/bc66ed319a1e6e7a3f30758a081c2605/title {"sessionId": "bc66ed319a1e6e7a3f30758a081c2605"}
+03/27/2019 10:39:07 AM: DEBUG: http://127.0.0.1:50141 "GET /session/bc66ed319a1e6e7a3f30758a081c2605/title HTTP/1.1" 200 108
+03/27/2019 10:39:07 AM: DEBUG: Finished Request
+03/27/2019 10:39:07 AM: INFO: ************** Login test test is passed ************ 
+03/27/2019 10:39:07 AM: DEBUG: DELETE http://127.0.0.1:50141/session/bc66ed319a1e6e7a3f30758a081c2605/window {"sessionId": "bc66ed319a1e6e7a3f30758a081c2605"}
+03/27/2019 10:39:09 AM: DEBUG: http://127.0.0.1:50141 "DELETE /session/bc66ed319a1e6e7a3f30758a081c2605/window HTTP/1.1" 200 72
+03/27/2019 10:39:09 AM: DEBUG: Finished Request
+03/27/2019 10:47:20 AM: DEBUG: POST http://127.0.0.1:51654/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"browserName": "chrome", "platformName": "any", "goog:chromeOptions": {"extensions": [], "args": []}}}, "desiredCapabilities": {"browserName": "chrome", "version": "", "platform": "ANY", "goog:chromeOptions": {"extensions": [], "args": []}}}
+03/27/2019 10:47:20 AM: DEBUG: Starting new HTTP connection (1): 127.0.0.1:51654
+03/27/2019 10:47:24 AM: DEBUG: http://127.0.0.1:51654 "POST /session HTTP/1.1" 200 999
+03/27/2019 10:47:24 AM: DEBUG: Finished Request
+03/27/2019 10:47:24 AM: INFO: ************** Test_001_Login ************ 
+03/27/2019 10:47:24 AM: INFO: ************** Started home page title test ************ 
+03/27/2019 10:47:24 AM: DEBUG: POST http://127.0.0.1:51654/session/7acbcc6013fb9595d84312f21b817bc7/url {"url": "http://admin-demo.nopcommerce.com", "sessionId": "7acbcc6013fb9595d84312f21b817bc7"}
+03/27/2019 10:47:27 AM: DEBUG: http://127.0.0.1:51654 "POST /session/7acbcc6013fb9595d84312f21b817bc7/url HTTP/1.1" 200 72
+03/27/2019 10:47:27 AM: DEBUG: Finished Request
+03/27/2019 10:47:27 AM: DEBUG: GET http://127.0.0.1:51654/session/7acbcc6013fb9595d84312f21b817bc7/title {"sessionId": "7acbcc6013fb9595d84312f21b817bc7"}
+03/27/2019 10:47:27 AM: DEBUG: http://127.0.0.1:51654 "GET /session/7acbcc6013fb9595d84312f21b817bc7/title HTTP/1.1" 200 87
+03/27/2019 10:47:27 AM: DEBUG: Finished Request
+03/27/2019 10:47:27 AM: INFO: ************** Home PageTitle test is passed ************ 
+03/27/2019 10:47:27 AM: DEBUG: DELETE http://127.0.0.1:51654/session/7acbcc6013fb9595d84312f21b817bc7/window {"sessionId": "7acbcc6013fb9595d84312f21b817bc7"}
+03/27/2019 10:47:28 AM: DEBUG: http://127.0.0.1:51654 "DELETE /session/7acbcc6013fb9595d84312f21b817bc7/window HTTP/1.1" 200 70
+03/27/2019 10:47:28 AM: DEBUG: Finished Request
+03/27/2019 10:47:28 AM: DEBUG: POST http://127.0.0.1:51703/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"browserName": "chrome", "platformName": "any", "goog:chromeOptions": {"extensions": [], "args": []}}}, "desiredCapabilities": {"browserName": "chrome", "version": "", "platform": "ANY", "goog:chromeOptions": {"extensions": [], "args": []}}}
+03/27/2019 10:47:28 AM: DEBUG: Starting new HTTP connection (1): 127.0.0.1:51703
+03/27/2019 10:47:31 AM: DEBUG: http://127.0.0.1:51703 "POST /session HTTP/1.1" 200 999
+03/27/2019 10:47:31 AM: DEBUG: Finished Request
+03/27/2019 10:47:31 AM: INFO: ************** Login Test is started ************ 
+03/27/2019 10:47:31 AM: DEBUG: POST http://127.0.0.1:51703/session/319540bc613bb7ce390d8a97cdb18d1e/url {"url": "http://admin-demo.nopcommerce.com", "sessionId": "319540bc613bb7ce390d8a97cdb18d1e"}
+03/27/2019 10:47:34 AM: DEBUG: http://127.0.0.1:51703 "POST /session/319540bc613bb7ce390d8a97cdb18d1e/url HTTP/1.1" 200 72
+03/27/2019 10:47:34 AM: DEBUG: Finished Request
+03/27/2019 10:47:34 AM: DEBUG: POST http://127.0.0.1:51703/session/319540bc613bb7ce390d8a97cdb18d1e/element {"using": "id", "value": "Email", "sessionId": "319540bc613bb7ce390d8a97cdb18d1e"}
+03/27/2019 10:47:34 AM: DEBUG: http://127.0.0.1:51703 "POST /session/319540bc613bb7ce390d8a97cdb18d1e/element HTTP/1.1" 200 102
+03/27/2019 10:47:34 AM: DEBUG: Finished Request
+03/27/2019 10:47:34 AM: DEBUG: POST http://127.0.0.1:51703/session/319540bc613bb7ce390d8a97cdb18d1e/element/0.3116693519157514-1/value {"text": "admin@yourstore.com", "value": ["a", "d", "m", "i", "n", "@", "y", "o", "u", "r", "s", "t", "o", "r", "e", ".", "c", "o", "m"], "id": "0.3116693519157514-1", "sessionId": "319540bc613bb7ce390d8a97cdb18d1e"}
+03/27/2019 10:47:34 AM: DEBUG: http://127.0.0.1:51703 "POST /session/319540bc613bb7ce390d8a97cdb18d1e/element/0.3116693519157514-1/value HTTP/1.1" 200 72
+03/27/2019 10:47:34 AM: DEBUG: Finished Request
+03/27/2019 10:47:34 AM: DEBUG: POST http://127.0.0.1:51703/session/319540bc613bb7ce390d8a97cdb18d1e/element {"using": "id", "value": "Password", "sessionId": "319540bc613bb7ce390d8a97cdb18d1e"}
+03/27/2019 10:47:34 AM: DEBUG: http://127.0.0.1:51703 "POST /session/319540bc613bb7ce390d8a97cdb18d1e/element HTTP/1.1" 200 102
+03/27/2019 10:47:34 AM: DEBUG: Finished Request
+03/27/2019 10:47:34 AM: DEBUG: POST http://127.0.0.1:51703/session/319540bc613bb7ce390d8a97cdb18d1e/element/0.3116693519157514-2/value {"text": "admin", "value": ["a", "d", "m", "i", "n"], "id": "0.3116693519157514-2", "sessionId": "319540bc613bb7ce390d8a97cdb18d1e"}
+03/27/2019 10:47:34 AM: DEBUG: http://127.0.0.1:51703 "POST /session/319540bc613bb7ce390d8a97cdb18d1e/element/0.3116693519157514-2/value HTTP/1.1" 200 72
+03/27/2019 10:47:34 AM: DEBUG: Finished Request
+03/27/2019 10:47:34 AM: DEBUG: POST http://127.0.0.1:51703/session/319540bc613bb7ce390d8a97cdb18d1e/element {"using": "xpath", "value": "//input[@value='Log in']", "sessionId": "319540bc613bb7ce390d8a97cdb18d1e"}
+03/27/2019 10:47:34 AM: DEBUG: http://127.0.0.1:51703 "POST /session/319540bc613bb7ce390d8a97cdb18d1e/element HTTP/1.1" 200 102
+03/27/2019 10:47:34 AM: DEBUG: Finished Request
+03/27/2019 10:47:34 AM: DEBUG: POST http://127.0.0.1:51703/session/319540bc613bb7ce390d8a97cdb18d1e/element/0.3116693519157514-3/click {"id": "0.3116693519157514-3", "sessionId": "319540bc613bb7ce390d8a97cdb18d1e"}
+03/27/2019 10:47:40 AM: DEBUG: http://127.0.0.1:51703 "POST /session/319540bc613bb7ce390d8a97cdb18d1e/element/0.3116693519157514-3/click HTTP/1.1" 200 72
+03/27/2019 10:47:40 AM: DEBUG: Finished Request
+03/27/2019 10:47:40 AM: DEBUG: GET http://127.0.0.1:51703/session/319540bc613bb7ce390d8a97cdb18d1e/title {"sessionId": "319540bc613bb7ce390d8a97cdb18d1e"}
+03/27/2019 10:47:40 AM: DEBUG: http://127.0.0.1:51703 "GET /session/319540bc613bb7ce390d8a97cdb18d1e/title HTTP/1.1" 200 108
+03/27/2019 10:47:40 AM: DEBUG: Finished Request
+03/27/2019 10:47:40 AM: INFO: ************** Login test test is passed ************ 
+03/27/2019 10:47:40 AM: DEBUG: DELETE http://127.0.0.1:51703/session/319540bc613bb7ce390d8a97cdb18d1e/window {"sessionId": "319540bc613bb7ce390d8a97cdb18d1e"}
+03/27/2019 10:47:40 AM: DEBUG: http://127.0.0.1:51703 "DELETE /session/319540bc613bb7ce390d8a97cdb18d1e/window HTTP/1.1" 200 70
+03/27/2019 10:47:40 AM: DEBUG: Finished Request
+03/29/2019 10:07:42 AM: DEBUG: POST http://127.0.0.1:59742/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"browserName": "chrome", "platformName": "any", "goog:chromeOptions": {"extensions": [], "args": []}}}, "desiredCapabilities": {"browserName": "chrome", "version": "", "platform": "ANY", "goog:chromeOptions": {"extensions": [], "args": []}}}
+03/29/2019 10:07:42 AM: DEBUG: Starting new HTTP connection (1): 127.0.0.1:59742
+03/29/2019 10:07:44 AM: DEBUG: http://127.0.0.1:59742 "POST /session HTTP/1.1" 200 999
+03/29/2019 10:07:44 AM: DEBUG: Finished Request
+03/29/2019 10:07:44 AM: DEBUG: POST http://127.0.0.1:59742/session/209231b957adec94d892b63e5b5de2b5/url {"url": "http://admin-demo.nopcommerce.com", "sessionId": "209231b957adec94d892b63e5b5de2b5"}
+03/29/2019 10:07:46 AM: DEBUG: http://127.0.0.1:59742 "POST /session/209231b957adec94d892b63e5b5de2b5/url HTTP/1.1" 200 72
+03/29/2019 10:07:46 AM: DEBUG: Finished Request
+03/29/2019 10:07:46 AM: DEBUG: POST http://127.0.0.1:59742/session/209231b957adec94d892b63e5b5de2b5/window/current/maximize {"windowHandle": "current", "sessionId": "209231b957adec94d892b63e5b5de2b5"}
+03/29/2019 10:07:47 AM: DEBUG: http://127.0.0.1:59742 "POST /session/209231b957adec94d892b63e5b5de2b5/window/current/maximize HTTP/1.1" 200 112
+03/29/2019 10:07:47 AM: DEBUG: Finished Request
+03/29/2019 10:07:48 AM: DEBUG: POST http://127.0.0.1:59742/session/209231b957adec94d892b63e5b5de2b5/element {"using": "id", "value": "Email", "sessionId": "209231b957adec94d892b63e5b5de2b5"}
+03/29/2019 10:07:48 AM: DEBUG: http://127.0.0.1:59742 "POST /session/209231b957adec94d892b63e5b5de2b5/element HTTP/1.1" 200 102
+03/29/2019 10:07:48 AM: DEBUG: Finished Request
+03/29/2019 10:07:48 AM: DEBUG: POST http://127.0.0.1:59742/session/209231b957adec94d892b63e5b5de2b5/element/0.5005840007251683-1/clear {"id": "0.5005840007251683-1", "sessionId": "209231b957adec94d892b63e5b5de2b5"}
+03/29/2019 10:07:48 AM: DEBUG: http://127.0.0.1:59742 "POST /session/209231b957adec94d892b63e5b5de2b5/element/0.5005840007251683-1/clear HTTP/1.1" 200 72
+03/29/2019 10:07:48 AM: DEBUG: Finished Request
+03/29/2019 10:07:48 AM: DEBUG: POST http://127.0.0.1:59742/session/209231b957adec94d892b63e5b5de2b5/element {"using": "id", "value": "Email", "sessionId": "209231b957adec94d892b63e5b5de2b5"}
+03/29/2019 10:07:48 AM: DEBUG: http://127.0.0.1:59742 "POST /session/209231b957adec94d892b63e5b5de2b5/element HTTP/1.1" 200 102
+03/29/2019 10:07:48 AM: DEBUG: Finished Request
+03/29/2019 10:07:48 AM: DEBUG: POST http://127.0.0.1:59742/session/209231b957adec94d892b63e5b5de2b5/element/0.5005840007251683-1/value {"text": "admin@yourstore.com ", "value": ["a", "d", "m", "i", "n", "@", "y", "o", "u", "r", "s", "t", "o", "r", "e", ".", "c", "o", "m", " "], "id": "0.5005840007251683-1", "sessionId": "209231b957adec94d892b63e5b5de2b5"}
+03/29/2019 10:07:48 AM: DEBUG: http://127.0.0.1:59742 "POST /session/209231b957adec94d892b63e5b5de2b5/element/0.5005840007251683-1/value HTTP/1.1" 200 72
+03/29/2019 10:07:48 AM: DEBUG: Finished Request
+03/29/2019 10:07:48 AM: DEBUG: POST http://127.0.0.1:59742/session/209231b957adec94d892b63e5b5de2b5/element {"using": "id", "value": "Password", "sessionId": "209231b957adec94d892b63e5b5de2b5"}
+03/29/2019 10:07:48 AM: DEBUG: http://127.0.0.1:59742 "POST /session/209231b957adec94d892b63e5b5de2b5/element HTTP/1.1" 200 102
+03/29/2019 10:07:48 AM: DEBUG: Finished Request
+03/29/2019 10:07:48 AM: DEBUG: POST http://127.0.0.1:59742/session/209231b957adec94d892b63e5b5de2b5/element/0.5005840007251683-2/clear {"id": "0.5005840007251683-2", "sessionId": "209231b957adec94d892b63e5b5de2b5"}
+03/29/2019 10:07:48 AM: DEBUG: http://127.0.0.1:59742 "POST /session/209231b957adec94d892b63e5b5de2b5/element/0.5005840007251683-2/clear HTTP/1.1" 200 72
+03/29/2019 10:07:48 AM: DEBUG: Finished Request
+03/29/2019 10:07:48 AM: DEBUG: POST http://127.0.0.1:59742/session/209231b957adec94d892b63e5b5de2b5/element {"using": "id", "value": "Password", "sessionId": "209231b957adec94d892b63e5b5de2b5"}
+03/29/2019 10:07:48 AM: DEBUG: http://127.0.0.1:59742 "POST /session/209231b957adec94d892b63e5b5de2b5/element HTTP/1.1" 200 102
+03/29/2019 10:07:48 AM: DEBUG: Finished Request
+03/29/2019 10:07:48 AM: DEBUG: POST http://127.0.0.1:59742/session/209231b957adec94d892b63e5b5de2b5/element/0.5005840007251683-2/value {"text": "admin", "value": ["a", "d", "m", "i", "n"], "id": "0.5005840007251683-2", "sessionId": "209231b957adec94d892b63e5b5de2b5"}
+03/29/2019 10:07:48 AM: DEBUG: http://127.0.0.1:59742 "POST /session/209231b957adec94d892b63e5b5de2b5/element/0.5005840007251683-2/value HTTP/1.1" 200 72
+03/29/2019 10:07:48 AM: DEBUG: Finished Request
+03/29/2019 10:07:48 AM: DEBUG: POST http://127.0.0.1:59742/session/209231b957adec94d892b63e5b5de2b5/element {"using": "xpath", "value": "//input[@value='Log in']", "sessionId": "209231b957adec94d892b63e5b5de2b5"}
+03/29/2019 10:07:48 AM: DEBUG: http://127.0.0.1:59742 "POST /session/209231b957adec94d892b63e5b5de2b5/element HTTP/1.1" 200 102
+03/29/2019 10:07:48 AM: DEBUG: Finished Request
+03/29/2019 10:07:48 AM: DEBUG: POST http://127.0.0.1:59742/session/209231b957adec94d892b63e5b5de2b5/element/0.5005840007251683-3/click {"id": "0.5005840007251683-3", "sessionId": "209231b957adec94d892b63e5b5de2b5"}
+03/29/2019 10:08:03 AM: DEBUG: http://127.0.0.1:59742 "POST /session/209231b957adec94d892b63e5b5de2b5/element/0.5005840007251683-3/click HTTP/1.1" 200 72
+03/29/2019 10:08:03 AM: DEBUG: Finished Request
+03/29/2019 10:08:06 AM: DEBUG: GET http://127.0.0.1:59742/session/209231b957adec94d892b63e5b5de2b5/title {"sessionId": "209231b957adec94d892b63e5b5de2b5"}
+03/29/2019 10:08:06 AM: DEBUG: http://127.0.0.1:59742 "GET /session/209231b957adec94d892b63e5b5de2b5/title HTTP/1.1" 200 108
+03/29/2019 10:08:06 AM: DEBUG: Finished Request
+03/29/2019 10:08:06 AM: DEBUG: POST http://127.0.0.1:59742/session/209231b957adec94d892b63e5b5de2b5/element {"using": "link text", "value": "Logout", "sessionId": "209231b957adec94d892b63e5b5de2b5"}
+03/29/2019 10:08:06 AM: DEBUG: http://127.0.0.1:59742 "POST /session/209231b957adec94d892b63e5b5de2b5/element HTTP/1.1" 200 102
+03/29/2019 10:08:06 AM: DEBUG: Finished Request
+03/29/2019 10:08:06 AM: DEBUG: POST http://127.0.0.1:59742/session/209231b957adec94d892b63e5b5de2b5/element/0.3251982516210936-1/click {"id": "0.3251982516210936-1", "sessionId": "209231b957adec94d892b63e5b5de2b5"}
+03/29/2019 10:08:09 AM: DEBUG: http://127.0.0.1:59742 "POST /session/209231b957adec94d892b63e5b5de2b5/element/0.3251982516210936-1/click HTTP/1.1" 200 72
+03/29/2019 10:08:09 AM: DEBUG: Finished Request
+03/29/2019 10:08:09 AM: DEBUG: POST http://127.0.0.1:59742/session/209231b957adec94d892b63e5b5de2b5/element {"using": "id", "value": "Email", "sessionId": "209231b957adec94d892b63e5b5de2b5"}
+03/29/2019 10:08:09 AM: DEBUG: http://127.0.0.1:59742 "POST /session/209231b957adec94d892b63e5b5de2b5/element HTTP/1.1" 200 103
+03/29/2019 10:08:09 AM: DEBUG: Finished Request
+03/29/2019 10:08:09 AM: DEBUG: POST http://127.0.0.1:59742/session/209231b957adec94d892b63e5b5de2b5/element/0.05523890200963444-1/clear {"id": "0.05523890200963444-1", "sessionId": "209231b957adec94d892b63e5b5de2b5"}
+03/29/2019 10:08:09 AM: DEBUG: http://127.0.0.1:59742 "POST /session/209231b957adec94d892b63e5b5de2b5/element/0.05523890200963444-1/clear HTTP/1.1" 200 72
+03/29/2019 10:08:09 AM: DEBUG: Finished Request
+03/29/2019 10:08:09 AM: DEBUG: POST http://127.0.0.1:59742/session/209231b957adec94d892b63e5b5de2b5/element {"using": "id", "value": "Email", "sessionId": "209231b957adec94d892b63e5b5de2b5"}
+03/29/2019 10:08:09 AM: DEBUG: http://127.0.0.1:59742 "POST /session/209231b957adec94d892b63e5b5de2b5/element HTTP/1.1" 200 103
+03/29/2019 10:08:09 AM: DEBUG: Finished Request
+03/29/2019 10:08:09 AM: DEBUG: POST http://127.0.0.1:59742/session/209231b957adec94d892b63e5b5de2b5/element/0.05523890200963444-1/value {"text": "admin@yourstore.com ", "value": ["a", "d", "m", "i", "n", "@", "y", "o", "u", "r", "s", "t", "o", "r", "e", ".", "c", "o", "m", " "], "id": "0.05523890200963444-1", "sessionId": "209231b957adec94d892b63e5b5de2b5"}
+03/29/2019 10:08:09 AM: DEBUG: http://127.0.0.1:59742 "POST /session/209231b957adec94d892b63e5b5de2b5/element/0.05523890200963444-1/value HTTP/1.1" 200 72
+03/29/2019 10:08:09 AM: DEBUG: Finished Request
+03/29/2019 10:08:09 AM: DEBUG: POST http://127.0.0.1:59742/session/209231b957adec94d892b63e5b5de2b5/element {"using": "id", "value": "Password", "sessionId": "209231b957adec94d892b63e5b5de2b5"}
+03/29/2019 10:08:09 AM: DEBUG: http://127.0.0.1:59742 "POST /session/209231b957adec94d892b63e5b5de2b5/element HTTP/1.1" 200 103
+03/29/2019 10:08:09 AM: DEBUG: Finished Request
+03/29/2019 10:08:09 AM: DEBUG: POST http://127.0.0.1:59742/session/209231b957adec94d892b63e5b5de2b5/element/0.05523890200963444-2/clear {"id": "0.05523890200963444-2", "sessionId": "209231b957adec94d892b63e5b5de2b5"}
+03/29/2019 10:08:09 AM: DEBUG: http://127.0.0.1:59742 "POST /session/209231b957adec94d892b63e5b5de2b5/element/0.05523890200963444-2/clear HTTP/1.1" 200 72
+03/29/2019 10:08:09 AM: DEBUG: Finished Request
+03/29/2019 10:08:09 AM: DEBUG: POST http://127.0.0.1:59742/session/209231b957adec94d892b63e5b5de2b5/element {"using": "id", "value": "Password", "sessionId": "209231b957adec94d892b63e5b5de2b5"}
+03/29/2019 10:08:09 AM: DEBUG: http://127.0.0.1:59742 "POST /session/209231b957adec94d892b63e5b5de2b5/element HTTP/1.1" 200 103
+03/29/2019 10:08:09 AM: DEBUG: Finished Request
+03/29/2019 10:08:09 AM: DEBUG: POST http://127.0.0.1:59742/session/209231b957adec94d892b63e5b5de2b5/element/0.05523890200963444-2/value {"text": "adm", "value": ["a", "d", "m"], "id": "0.05523890200963444-2", "sessionId": "209231b957adec94d892b63e5b5de2b5"}
+03/29/2019 10:08:09 AM: DEBUG: http://127.0.0.1:59742 "POST /session/209231b957adec94d892b63e5b5de2b5/element/0.05523890200963444-2/value HTTP/1.1" 200 72
+03/29/2019 10:08:09 AM: DEBUG: Finished Request
+03/29/2019 10:08:09 AM: DEBUG: POST http://127.0.0.1:59742/session/209231b957adec94d892b63e5b5de2b5/element {"using": "xpath", "value": "//input[@value='Log in']", "sessionId": "209231b957adec94d892b63e5b5de2b5"}
+03/29/2019 10:08:09 AM: DEBUG: http://127.0.0.1:59742 "POST /session/209231b957adec94d892b63e5b5de2b5/element HTTP/1.1" 200 103
+03/29/2019 10:08:09 AM: DEBUG: Finished Request
+03/29/2019 10:08:09 AM: DEBUG: POST http://127.0.0.1:59742/session/209231b957adec94d892b63e5b5de2b5/element/0.05523890200963444-3/click {"id": "0.05523890200963444-3", "sessionId": "209231b957adec94d892b63e5b5de2b5"}
+03/29/2019 10:08:10 AM: DEBUG: http://127.0.0.1:59742 "POST /session/209231b957adec94d892b63e5b5de2b5/element/0.05523890200963444-3/click HTTP/1.1" 200 72
+03/29/2019 10:08:10 AM: DEBUG: Finished Request
+03/29/2019 10:08:13 AM: DEBUG: GET http://127.0.0.1:59742/session/209231b957adec94d892b63e5b5de2b5/title {"sessionId": "209231b957adec94d892b63e5b5de2b5"}
+03/29/2019 10:08:13 AM: DEBUG: http://127.0.0.1:59742 "GET /session/209231b957adec94d892b63e5b5de2b5/title HTTP/1.1" 200 87
+03/29/2019 10:08:13 AM: DEBUG: Finished Request
+03/29/2019 10:08:13 AM: DEBUG: POST http://127.0.0.1:59742/session/209231b957adec94d892b63e5b5de2b5/element {"using": "id", "value": "Email", "sessionId": "209231b957adec94d892b63e5b5de2b5"}
+03/29/2019 10:08:13 AM: DEBUG: http://127.0.0.1:59742 "POST /session/209231b957adec94d892b63e5b5de2b5/element HTTP/1.1" 200 103
+03/29/2019 10:08:13 AM: DEBUG: Finished Request
+03/29/2019 10:08:13 AM: DEBUG: POST http://127.0.0.1:59742/session/209231b957adec94d892b63e5b5de2b5/element/0.38703866574544765-1/clear {"id": "0.38703866574544765-1", "sessionId": "209231b957adec94d892b63e5b5de2b5"}
+03/29/2019 10:08:13 AM: DEBUG: http://127.0.0.1:59742 "POST /session/209231b957adec94d892b63e5b5de2b5/element/0.38703866574544765-1/clear HTTP/1.1" 200 72
+03/29/2019 10:08:13 AM: DEBUG: Finished Request
+03/29/2019 10:08:13 AM: DEBUG: POST http://127.0.0.1:59742/session/209231b957adec94d892b63e5b5de2b5/element {"using": "id", "value": "Email", "sessionId": "209231b957adec94d892b63e5b5de2b5"}
+03/29/2019 10:08:13 AM: DEBUG: http://127.0.0.1:59742 "POST /session/209231b957adec94d892b63e5b5de2b5/element HTTP/1.1" 200 103
+03/29/2019 10:08:13 AM: DEBUG: Finished Request
+03/29/2019 10:08:13 AM: DEBUG: POST http://127.0.0.1:59742/session/209231b957adec94d892b63e5b5de2b5/element/0.38703866574544765-1/value {"text": "adm@yourstore.com", "value": ["a", "d", "m", "@", "y", "o", "u", "r", "s", "t", "o", "r", "e", ".", "c", "o", "m"], "id": "0.38703866574544765-1", "sessionId": "209231b957adec94d892b63e5b5de2b5"}
+03/29/2019 10:08:13 AM: DEBUG: http://127.0.0.1:59742 "POST /session/209231b957adec94d892b63e5b5de2b5/element/0.38703866574544765-1/value HTTP/1.1" 200 72
+03/29/2019 10:08:13 AM: DEBUG: Finished Request
+03/29/2019 10:08:13 AM: DEBUG: POST http://127.0.0.1:59742/session/209231b957adec94d892b63e5b5de2b5/element {"using": "id", "value": "Password", "sessionId": "209231b957adec94d892b63e5b5de2b5"}
+03/29/2019 10:08:13 AM: DEBUG: http://127.0.0.1:59742 "POST /session/209231b957adec94d892b63e5b5de2b5/element HTTP/1.1" 200 103
+03/29/2019 10:08:13 AM: DEBUG: Finished Request
+03/29/2019 10:08:13 AM: DEBUG: POST http://127.0.0.1:59742/session/209231b957adec94d892b63e5b5de2b5/element/0.38703866574544765-2/clear {"id": "0.38703866574544765-2", "sessionId": "209231b957adec94d892b63e5b5de2b5"}
+03/29/2019 10:08:13 AM: DEBUG: http://127.0.0.1:59742 "POST /session/209231b957adec94d892b63e5b5de2b5/element/0.38703866574544765-2/clear HTTP/1.1" 200 72
+03/29/2019 10:08:13 AM: DEBUG: Finished Request
+03/29/2019 10:08:13 AM: DEBUG: POST http://127.0.0.1:59742/session/209231b957adec94d892b63e5b5de2b5/element {"using": "id", "value": "Password", "sessionId": "209231b957adec94d892b63e5b5de2b5"}
+03/29/2019 10:08:13 AM: DEBUG: http://127.0.0.1:59742 "POST /session/209231b957adec94d892b63e5b5de2b5/element HTTP/1.1" 200 103
+03/29/2019 10:08:13 AM: DEBUG: Finished Request
+03/29/2019 10:08:13 AM: DEBUG: POST http://127.0.0.1:59742/session/209231b957adec94d892b63e5b5de2b5/element/0.38703866574544765-2/value {"text": "admin", "value": ["a", "d", "m", "i", "n"], "id": "0.38703866574544765-2", "sessionId": "209231b957adec94d892b63e5b5de2b5"}
+03/29/2019 10:08:13 AM: DEBUG: http://127.0.0.1:59742 "POST /session/209231b957adec94d892b63e5b5de2b5/element/0.38703866574544765-2/value HTTP/1.1" 200 72
+03/29/2019 10:08:13 AM: DEBUG: Finished Request
+03/29/2019 10:08:13 AM: DEBUG: POST http://127.0.0.1:59742/session/209231b957adec94d892b63e5b5de2b5/element {"using": "xpath", "value": "//input[@value='Log in']", "sessionId": "209231b957adec94d892b63e5b5de2b5"}
+03/29/2019 10:08:13 AM: DEBUG: http://127.0.0.1:59742 "POST /session/209231b957adec94d892b63e5b5de2b5/element HTTP/1.1" 200 103
+03/29/2019 10:08:13 AM: DEBUG: Finished Request
+03/29/2019 10:08:13 AM: DEBUG: POST http://127.0.0.1:59742/session/209231b957adec94d892b63e5b5de2b5/element/0.38703866574544765-3/click {"id": "0.38703866574544765-3", "sessionId": "209231b957adec94d892b63e5b5de2b5"}
+03/29/2019 10:08:14 AM: DEBUG: http://127.0.0.1:59742 "POST /session/209231b957adec94d892b63e5b5de2b5/element/0.38703866574544765-3/click HTTP/1.1" 200 72
+03/29/2019 10:08:14 AM: DEBUG: Finished Request
+03/29/2019 10:08:17 AM: DEBUG: GET http://127.0.0.1:59742/session/209231b957adec94d892b63e5b5de2b5/title {"sessionId": "209231b957adec94d892b63e5b5de2b5"}
+03/29/2019 10:08:17 AM: DEBUG: http://127.0.0.1:59742 "GET /session/209231b957adec94d892b63e5b5de2b5/title HTTP/1.1" 200 87
+03/29/2019 10:08:17 AM: DEBUG: Finished Request
+03/29/2019 10:08:17 AM: DEBUG: POST http://127.0.0.1:59742/session/209231b957adec94d892b63e5b5de2b5/element {"using": "id", "value": "Email", "sessionId": "209231b957adec94d892b63e5b5de2b5"}
+03/29/2019 10:08:17 AM: DEBUG: http://127.0.0.1:59742 "POST /session/209231b957adec94d892b63e5b5de2b5/element HTTP/1.1" 200 102
+03/29/2019 10:08:17 AM: DEBUG: Finished Request
+03/29/2019 10:08:17 AM: DEBUG: POST http://127.0.0.1:59742/session/209231b957adec94d892b63e5b5de2b5/element/0.6822147946312243-1/clear {"id": "0.6822147946312243-1", "sessionId": "209231b957adec94d892b63e5b5de2b5"}
+03/29/2019 10:08:17 AM: DEBUG: http://127.0.0.1:59742 "POST /session/209231b957adec94d892b63e5b5de2b5/element/0.6822147946312243-1/clear HTTP/1.1" 200 72
+03/29/2019 10:08:17 AM: DEBUG: Finished Request
+03/29/2019 10:08:17 AM: DEBUG: POST http://127.0.0.1:59742/session/209231b957adec94d892b63e5b5de2b5/element {"using": "id", "value": "Email", "sessionId": "209231b957adec94d892b63e5b5de2b5"}
+03/29/2019 10:08:17 AM: DEBUG: http://127.0.0.1:59742 "POST /session/209231b957adec94d892b63e5b5de2b5/element HTTP/1.1" 200 102
+03/29/2019 10:08:17 AM: DEBUG: Finished Request
+03/29/2019 10:08:17 AM: DEBUG: POST http://127.0.0.1:59742/session/209231b957adec94d892b63e5b5de2b5/element/0.6822147946312243-1/value {"text": "adm@yourstore.com", "value": ["a", "d", "m", "@", "y", "o", "u", "r", "s", "t", "o", "r", "e", ".", "c", "o", "m"], "id": "0.6822147946312243-1", "sessionId": "209231b957adec94d892b63e5b5de2b5"}
+03/29/2019 10:08:17 AM: DEBUG: http://127.0.0.1:59742 "POST /session/209231b957adec94d892b63e5b5de2b5/element/0.6822147946312243-1/value HTTP/1.1" 200 72
+03/29/2019 10:08:17 AM: DEBUG: Finished Request
+03/29/2019 10:08:17 AM: DEBUG: POST http://127.0.0.1:59742/session/209231b957adec94d892b63e5b5de2b5/element {"using": "id", "value": "Password", "sessionId": "209231b957adec94d892b63e5b5de2b5"}
+03/29/2019 10:08:17 AM: DEBUG: http://127.0.0.1:59742 "POST /session/209231b957adec94d892b63e5b5de2b5/element HTTP/1.1" 200 102
+03/29/2019 10:08:17 AM: DEBUG: Finished Request
+03/29/2019 10:08:17 AM: DEBUG: POST http://127.0.0.1:59742/session/209231b957adec94d892b63e5b5de2b5/element/0.6822147946312243-2/clear {"id": "0.6822147946312243-2", "sessionId": "209231b957adec94d892b63e5b5de2b5"}
+03/29/2019 10:08:17 AM: DEBUG: http://127.0.0.1:59742 "POST /session/209231b957adec94d892b63e5b5de2b5/element/0.6822147946312243-2/clear HTTP/1.1" 200 72
+03/29/2019 10:08:17 AM: DEBUG: Finished Request
+03/29/2019 10:08:17 AM: DEBUG: POST http://127.0.0.1:59742/session/209231b957adec94d892b63e5b5de2b5/element {"using": "id", "value": "Password", "sessionId": "209231b957adec94d892b63e5b5de2b5"}
+03/29/2019 10:08:17 AM: DEBUG: http://127.0.0.1:59742 "POST /session/209231b957adec94d892b63e5b5de2b5/element HTTP/1.1" 200 102
+03/29/2019 10:08:17 AM: DEBUG: Finished Request
+03/29/2019 10:08:17 AM: DEBUG: POST http://127.0.0.1:59742/session/209231b957adec94d892b63e5b5de2b5/element/0.6822147946312243-2/value {"text": "adm", "value": ["a", "d", "m"], "id": "0.6822147946312243-2", "sessionId": "209231b957adec94d892b63e5b5de2b5"}
+03/29/2019 10:08:17 AM: DEBUG: http://127.0.0.1:59742 "POST /session/209231b957adec94d892b63e5b5de2b5/element/0.6822147946312243-2/value HTTP/1.1" 200 72
+03/29/2019 10:08:17 AM: DEBUG: Finished Request
+03/29/2019 10:08:17 AM: DEBUG: POST http://127.0.0.1:59742/session/209231b957adec94d892b63e5b5de2b5/element {"using": "xpath", "value": "//input[@value='Log in']", "sessionId": "209231b957adec94d892b63e5b5de2b5"}
+03/29/2019 10:08:17 AM: DEBUG: http://127.0.0.1:59742 "POST /session/209231b957adec94d892b63e5b5de2b5/element HTTP/1.1" 200 102
+03/29/2019 10:08:17 AM: DEBUG: Finished Request
+03/29/2019 10:08:17 AM: DEBUG: POST http://127.0.0.1:59742/session/209231b957adec94d892b63e5b5de2b5/element/0.6822147946312243-3/click {"id": "0.6822147946312243-3", "sessionId": "209231b957adec94d892b63e5b5de2b5"}
+03/29/2019 10:08:17 AM: DEBUG: http://127.0.0.1:59742 "POST /session/209231b957adec94d892b63e5b5de2b5/element/0.6822147946312243-3/click HTTP/1.1" 200 72
+03/29/2019 10:08:17 AM: DEBUG: Finished Request
+03/29/2019 10:08:20 AM: DEBUG: GET http://127.0.0.1:59742/session/209231b957adec94d892b63e5b5de2b5/title {"sessionId": "209231b957adec94d892b63e5b5de2b5"}
+03/29/2019 10:08:20 AM: DEBUG: http://127.0.0.1:59742 "GET /session/209231b957adec94d892b63e5b5de2b5/title HTTP/1.1" 200 87
+03/29/2019 10:08:20 AM: DEBUG: Finished Request
+03/29/2019 10:25:49 AM: DEBUG: POST http://127.0.0.1:63040/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"browserName": "chrome", "platformName": "any", "goog:chromeOptions": {"extensions": [], "args": []}}}, "desiredCapabilities": {"browserName": "chrome", "version": "", "platform": "ANY", "goog:chromeOptions": {"extensions": [], "args": []}}}
+03/29/2019 10:25:49 AM: DEBUG: Starting new HTTP connection (1): 127.0.0.1:63040
+03/29/2019 10:25:51 AM: DEBUG: http://127.0.0.1:63040 "POST /session HTTP/1.1" 200 998
+03/29/2019 10:25:51 AM: DEBUG: Finished Request
+03/29/2019 10:25:51 AM: INFO: ******* Starting Test_002_DDT_Login Test **********
+03/29/2019 10:25:51 AM: INFO: ******* Starting Login DDT Test **********
+03/29/2019 10:25:51 AM: DEBUG: POST http://127.0.0.1:63040/session/c2ba5fe767f5c75615b78973ffc5fe0a/url {"url": "http://admin-demo.nopcommerce.com", "sessionId": "c2ba5fe767f5c75615b78973ffc5fe0a"}
+03/29/2019 10:25:53 AM: DEBUG: http://127.0.0.1:63040 "POST /session/c2ba5fe767f5c75615b78973ffc5fe0a/url HTTP/1.1" 200 72
+03/29/2019 10:25:53 AM: DEBUG: Finished Request
+03/29/2019 10:25:53 AM: DEBUG: POST http://127.0.0.1:63040/session/c2ba5fe767f5c75615b78973ffc5fe0a/window/current/maximize {"windowHandle": "current", "sessionId": "c2ba5fe767f5c75615b78973ffc5fe0a"}
+03/29/2019 10:25:54 AM: DEBUG: http://127.0.0.1:63040 "POST /session/c2ba5fe767f5c75615b78973ffc5fe0a/window/current/maximize HTTP/1.1" 200 112
+03/29/2019 10:25:54 AM: DEBUG: Finished Request
+03/29/2019 10:25:54 AM: INFO: ******* Reading data from excel **********
+03/29/2019 10:25:54 AM: DEBUG: POST http://127.0.0.1:63040/session/c2ba5fe767f5c75615b78973ffc5fe0a/element {"using": "id", "value": "Email", "sessionId": "c2ba5fe767f5c75615b78973ffc5fe0a"}
+03/29/2019 10:25:54 AM: DEBUG: http://127.0.0.1:63040 "POST /session/c2ba5fe767f5c75615b78973ffc5fe0a/element HTTP/1.1" 200 102
+03/29/2019 10:25:54 AM: DEBUG: Finished Request
+03/29/2019 10:25:54 AM: DEBUG: POST http://127.0.0.1:63040/session/c2ba5fe767f5c75615b78973ffc5fe0a/element/0.5998338512664392-1/clear {"id": "0.5998338512664392-1", "sessionId": "c2ba5fe767f5c75615b78973ffc5fe0a"}
+03/29/2019 10:25:54 AM: DEBUG: http://127.0.0.1:63040 "POST /session/c2ba5fe767f5c75615b78973ffc5fe0a/element/0.5998338512664392-1/clear HTTP/1.1" 200 72
+03/29/2019 10:25:54 AM: DEBUG: Finished Request
+03/29/2019 10:25:54 AM: DEBUG: POST http://127.0.0.1:63040/session/c2ba5fe767f5c75615b78973ffc5fe0a/element {"using": "id", "value": "Email", "sessionId": "c2ba5fe767f5c75615b78973ffc5fe0a"}
+03/29/2019 10:25:54 AM: DEBUG: http://127.0.0.1:63040 "POST /session/c2ba5fe767f5c75615b78973ffc5fe0a/element HTTP/1.1" 200 102
+03/29/2019 10:25:54 AM: DEBUG: Finished Request
+03/29/2019 10:25:54 AM: DEBUG: POST http://127.0.0.1:63040/session/c2ba5fe767f5c75615b78973ffc5fe0a/element/0.5998338512664392-1/value {"text": "admin@yourstore.com ", "value": ["a", "d", "m", "i", "n", "@", "y", "o", "u", "r", "s", "t", "o", "r", "e", ".", "c", "o", "m", " "], "id": "0.5998338512664392-1", "sessionId": "c2ba5fe767f5c75615b78973ffc5fe0a"}
+03/29/2019 10:25:55 AM: DEBUG: http://127.0.0.1:63040 "POST /session/c2ba5fe767f5c75615b78973ffc5fe0a/element/0.5998338512664392-1/value HTTP/1.1" 200 72
+03/29/2019 10:25:55 AM: DEBUG: Finished Request
+03/29/2019 10:25:55 AM: DEBUG: POST http://127.0.0.1:63040/session/c2ba5fe767f5c75615b78973ffc5fe0a/element {"using": "id", "value": "Password", "sessionId": "c2ba5fe767f5c75615b78973ffc5fe0a"}
+03/29/2019 10:25:55 AM: DEBUG: http://127.0.0.1:63040 "POST /session/c2ba5fe767f5c75615b78973ffc5fe0a/element HTTP/1.1" 200 102
+03/29/2019 10:25:55 AM: DEBUG: Finished Request
+03/29/2019 10:25:55 AM: DEBUG: POST http://127.0.0.1:63040/session/c2ba5fe767f5c75615b78973ffc5fe0a/element/0.5998338512664392-2/clear {"id": "0.5998338512664392-2", "sessionId": "c2ba5fe767f5c75615b78973ffc5fe0a"}
+03/29/2019 10:25:55 AM: DEBUG: http://127.0.0.1:63040 "POST /session/c2ba5fe767f5c75615b78973ffc5fe0a/element/0.5998338512664392-2/clear HTTP/1.1" 200 72
+03/29/2019 10:25:55 AM: DEBUG: Finished Request
+03/29/2019 10:25:55 AM: DEBUG: POST http://127.0.0.1:63040/session/c2ba5fe767f5c75615b78973ffc5fe0a/element {"using": "id", "value": "Password", "sessionId": "c2ba5fe767f5c75615b78973ffc5fe0a"}
+03/29/2019 10:25:55 AM: DEBUG: http://127.0.0.1:63040 "POST /session/c2ba5fe767f5c75615b78973ffc5fe0a/element HTTP/1.1" 200 102
+03/29/2019 10:25:55 AM: DEBUG: Finished Request
+03/29/2019 10:25:55 AM: DEBUG: POST http://127.0.0.1:63040/session/c2ba5fe767f5c75615b78973ffc5fe0a/element/0.5998338512664392-2/value {"text": "admin", "value": ["a", "d", "m", "i", "n"], "id": "0.5998338512664392-2", "sessionId": "c2ba5fe767f5c75615b78973ffc5fe0a"}
+03/29/2019 10:25:55 AM: DEBUG: http://127.0.0.1:63040 "POST /session/c2ba5fe767f5c75615b78973ffc5fe0a/element/0.5998338512664392-2/value HTTP/1.1" 200 72
+03/29/2019 10:25:55 AM: DEBUG: Finished Request
+03/29/2019 10:25:55 AM: DEBUG: POST http://127.0.0.1:63040/session/c2ba5fe767f5c75615b78973ffc5fe0a/element {"using": "xpath", "value": "//input[@value='Log in']", "sessionId": "c2ba5fe767f5c75615b78973ffc5fe0a"}
+03/29/2019 10:25:55 AM: DEBUG: http://127.0.0.1:63040 "POST /session/c2ba5fe767f5c75615b78973ffc5fe0a/element HTTP/1.1" 200 102
+03/29/2019 10:25:55 AM: DEBUG: Finished Request
+03/29/2019 10:25:55 AM: DEBUG: POST http://127.0.0.1:63040/session/c2ba5fe767f5c75615b78973ffc5fe0a/element/0.5998338512664392-3/click {"id": "0.5998338512664392-3", "sessionId": "c2ba5fe767f5c75615b78973ffc5fe0a"}
+03/29/2019 10:25:59 AM: DEBUG: http://127.0.0.1:63040 "POST /session/c2ba5fe767f5c75615b78973ffc5fe0a/element/0.5998338512664392-3/click HTTP/1.1" 200 72
+03/29/2019 10:25:59 AM: DEBUG: Finished Request
+03/29/2019 10:26:02 AM: DEBUG: GET http://127.0.0.1:63040/session/c2ba5fe767f5c75615b78973ffc5fe0a/title {"sessionId": "c2ba5fe767f5c75615b78973ffc5fe0a"}
+03/29/2019 10:26:02 AM: DEBUG: http://127.0.0.1:63040 "GET /session/c2ba5fe767f5c75615b78973ffc5fe0a/title HTTP/1.1" 200 108
+03/29/2019 10:26:02 AM: DEBUG: Finished Request
+03/29/2019 10:26:02 AM: INFO: Login Test Passed
+03/29/2019 10:26:02 AM: DEBUG: POST http://127.0.0.1:63040/session/c2ba5fe767f5c75615b78973ffc5fe0a/element {"using": "link text", "value": "Logout", "sessionId": "c2ba5fe767f5c75615b78973ffc5fe0a"}
+03/29/2019 10:26:02 AM: DEBUG: http://127.0.0.1:63040 "POST /session/c2ba5fe767f5c75615b78973ffc5fe0a/element HTTP/1.1" 200 102
+03/29/2019 10:26:02 AM: DEBUG: Finished Request
+03/29/2019 10:26:02 AM: DEBUG: POST http://127.0.0.1:63040/session/c2ba5fe767f5c75615b78973ffc5fe0a/element/0.5956908788272284-1/click {"id": "0.5956908788272284-1", "sessionId": "c2ba5fe767f5c75615b78973ffc5fe0a"}
+03/29/2019 10:26:04 AM: DEBUG: http://127.0.0.1:63040 "POST /session/c2ba5fe767f5c75615b78973ffc5fe0a/element/0.5956908788272284-1/click HTTP/1.1" 200 72
+03/29/2019 10:26:04 AM: DEBUG: Finished Request
+03/29/2019 10:26:04 AM: INFO: ******* Ending Login DDT Test **********
+03/29/2019 10:26:04 AM: DEBUG: DELETE http://127.0.0.1:63040/session/c2ba5fe767f5c75615b78973ffc5fe0a/window {"sessionId": "c2ba5fe767f5c75615b78973ffc5fe0a"}
+03/29/2019 10:26:06 AM: DEBUG: http://127.0.0.1:63040 "DELETE /session/c2ba5fe767f5c75615b78973ffc5fe0a/window HTTP/1.1" 200 72
+03/29/2019 10:26:06 AM: DEBUG: Finished Request
+03/29/2019 10:26:06 AM: DEBUG: POST http://127.0.0.1:63040/session/c2ba5fe767f5c75615b78973ffc5fe0a/element {"using": "id", "value": "Email", "sessionId": "c2ba5fe767f5c75615b78973ffc5fe0a"}
+03/29/2019 10:26:06 AM: DEBUG: http://127.0.0.1:63040 "POST /session/c2ba5fe767f5c75615b78973ffc5fe0a/element HTTP/1.1" 200 193
+03/29/2019 10:26:06 AM: DEBUG: Finished Request
+03/29/2019 10:27:06 AM: INFO: ******* Starting Test_002_DDT_Login Test **********
+03/29/2019 10:27:06 AM: INFO: ******* Starting Login DDT Test **********
+03/29/2019 10:27:09 AM: INFO: ******* Reading data from excel **********
+03/29/2019 10:27:17 AM: INFO: Login Test Passed
+03/29/2019 10:27:19 AM: INFO: ******* Ending Login DDT Test **********
+03/29/2019 10:30:55 AM: INFO: ******* Starting Test_002_DDT_Login Test **********
+03/29/2019 10:30:55 AM: INFO: ******* Starting Login DDT Test **********
+03/29/2019 10:30:59 AM: INFO: ******* Reading data from excel **********
+03/29/2019 10:31:11 AM: INFO: Login Test Passed
+03/29/2019 10:31:19 AM: INFO: Login Test Passed
+03/29/2019 10:31:25 AM: INFO: Login Test Passed
+03/29/2019 10:31:31 AM: INFO: Login Test Passed
+03/29/2019 10:31:31 AM: INFO: ******* Ending Login DDT Test **********
+03/29/2019 10:31:54 AM: INFO: ******* Starting Test_002_DDT_Login Test **********
+03/29/2019 10:31:54 AM: INFO: ******* Starting Login DDT Test **********
+03/29/2019 10:31:58 AM: INFO: ******* Reading data from excel **********
+03/29/2019 10:32:09 AM: INFO: Login Test Passed
+03/29/2019 10:32:17 AM: INFO: Login Test Passed
+03/29/2019 10:32:23 AM: INFO: Login Test Passed
+03/29/2019 10:32:29 AM: INFO: Login Test Passed
+03/29/2019 10:32:29 AM: INFO: ******* Ending Login DDT Test **********
+03/29/2019 10:51:02 AM: INFO: ************* Test_003_AddCustomer **********
+03/29/2019 10:51:02 AM: INFO: ************* Login to application **********
+03/29/2019 10:51:13 AM: INFO: ************* Login succesful **********
+03/29/2019 10:51:13 AM: INFO: ******* Starting Add Customer Test **********
+03/29/2019 10:53:15 AM: INFO: ************* Test_003_AddCustomer **********
+03/29/2019 10:53:15 AM: INFO: ************* Login to application **********
+03/29/2019 10:53:24 AM: INFO: ************* Login succesful **********
+03/29/2019 10:53:24 AM: INFO: ******* Starting Add Customer Test **********
+03/29/2019 10:53:31 AM: INFO: ************* Providing customer info **********
+03/29/2019 10:53:38 AM: INFO: ************* Saving customer info **********
+03/29/2019 10:53:38 AM: INFO: ********* Add customer validation started *****************
+03/29/2019 10:53:43 AM: INFO: ********* Add customer Test Passed *********
+03/29/2019 10:53:43 AM: INFO: ******* Ending Home Page Title Test **********
+04/01/2019 09:41:28 AM: INFO: ************** Test_001_Login ************ 
+04/01/2019 09:41:28 AM: INFO: ************** Started home page title test ************ 
+04/01/2019 09:41:31 AM: INFO: ************** Home PageTitle test is passed ************ 
+04/01/2019 09:42:57 AM: INFO: ************** Login Test is started ************ 
+04/01/2019 09:43:05 AM: INFO: ************** Login test test is passed ************ 
+04/01/2019 09:44:41 AM: INFO: ************** Test_001_Login ************ 
+04/01/2019 09:44:41 AM: INFO: ************** Started home page title test ************ 
+04/01/2019 09:44:42 AM: INFO: ************** Home PageTitle test is passed ************ 
+04/01/2019 09:44:45 AM: INFO: ************** Login Test is started ************ 
+04/01/2019 09:44:51 AM: INFO: ************** Login test test is passed ************ 
+04/01/2019 09:48:11 AM: INFO: ************* Test_003_AddCustomer **********
+04/01/2019 09:48:11 AM: INFO: ************* Login to application **********
+04/01/2019 09:48:20 AM: INFO: ************* Login succesful **********
+04/01/2019 09:48:20 AM: INFO: ******* Starting Add Customer Test **********
+04/01/2019 09:48:26 AM: INFO: ************** Login Test is started ************ 
+04/01/2019 09:48:32 AM: INFO: ************** Login test test is passed ************ 
+04/01/2019 09:49:50 AM: INFO: ************* Test_003_AddCustomer **********
+04/01/2019 09:49:50 AM: INFO: ************* Login to application **********
+04/01/2019 09:49:57 AM: INFO: ************* Login succesful **********
+04/01/2019 09:49:57 AM: INFO: ******* Starting Add Customer Test **********
+04/01/2019 09:50:05 AM: INFO: ************* Providing customer info **********
+04/01/2019 09:50:15 AM: INFO: ************* Saving customer info **********
+04/01/2019 09:50:15 AM: INFO: ********* Add customer validation started *****************
+04/01/2019 09:50:20 AM: INFO: ********* Add customer Test Passed *********
+04/01/2019 09:50:20 AM: INFO: ******* Ending Add custoemr  Test **********
+04/01/2019 09:50:22 AM: INFO: ************** Login Test is started ************ 
+04/01/2019 09:50:28 AM: INFO: ************** Login test test is passed ************ 
